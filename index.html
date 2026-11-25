@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación · Eficiencia Energética en el Software</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <main class="presentacion-contenedor">
+        <div class="barra-progreso-fondo">
+            <div id="barra-progreso" class="barra-progreso-relleno"></div>
+        </div>
+
+        <section id="visor-diapositiva" class="diapositiva-activa" aria-live="polite"></section>
+
+        <footer class="controles-navegacion">
+            <button id="btn-anterior" class="btn-nav" aria-label="Diapositiva anterior">← Anterior</button>
+            <div id="indicador-puntos" class="indicador-puntos"></div>
+            <span id="contador-diapositivas" class="contador">1 / 6</span>
+            <button id="btn-siguiente" class="btn-nav btn-primario" aria-label="Siguiente diapositiva">Siguiente
+                →</button>
+        </footer>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
